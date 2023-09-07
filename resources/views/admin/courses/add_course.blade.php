@@ -1,9 +1,14 @@
 
-@if(\Illuminate\Support\Facades\Auth::user()->name=='admin')
-    @extends('admin.layout.master')
+@if(\Illuminate\Support\Facades\Auth::user()->email=='admin@gmail.com')
+    @php
+        $user='admin.layout.master';
+    @endphp
 @else
-    @extends('teacher.layout.master')
+    @php
+        $user='teacher.layout.master';
+    @endphp
 @endif
+@extends($user)
     @section('title')
     Add Course
 @endsection

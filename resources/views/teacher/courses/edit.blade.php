@@ -14,7 +14,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Edit Course </h4>
 
-                    <form id="signupForm" method="post" action=" {{ route ( 'teacher_course.update', $course ) }} ">
+                    <form id="signupForm" method="post" action=" {{ route ( 'teacher_course.update',$course) }} ">
                         @csrf
                         @method('put')
                         <div class="mb-3">
