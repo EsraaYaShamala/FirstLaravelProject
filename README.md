@@ -12,12 +12,21 @@ windows 10 and above
 ```bash
 git clone [https://github.com/](https://github.com/EsraaYaShamala/FirstLaravelProject.git)
 cd FirstLaravelProject
+```
 - Install dependencies:
+- ```bash
 composer install
 npm install && npm run dev
+```
 - Set up the environment:
+```bash
 cp .env.example .env
+```
 - Run migrations:
+- ```bash
 php artisan migrate
+
 - Serve the application:
+```bash
 php artisan serve
+```
