@@ -14,7 +14,7 @@ git clone [https://github.com/](https://github.com/EsraaYaShamala/FirstLaravelPr
 cd FirstLaravelProject
 ```
 - Install dependencies:
-- ```bash
+```bash
 composer install
 npm install && npm run dev
 ```
@@ -23,9 +23,9 @@ npm install && npm run dev
 cp .env.example .env
 ```
 - Run migrations:
-- ```bash
+```bash
 php artisan migrate
-
+```
 - Serve the application:
 ```bash
 php artisan serve
