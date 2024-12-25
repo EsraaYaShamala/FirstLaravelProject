@@ -10,7 +10,7 @@ windows 10 and above
 ### Installation
 - Clone the repository:
 ```bash
-git clone [https://github.com/](https://github.com/EsraaYaShamala/FirstLaravelProject.git)
+git clone (https://github.com/EsraaYaShamala/FirstLaravelProject.git)
 cd FirstLaravelProject
 ```
 - Install dependencies:
